@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+    list-style: none;
+}
+
+html {
+    font-size: 8px;
+}
+
+body {
+    line-height: 1.5;
+    text-align: center;
+    font-size: 1.6rem;
+    background-color: #0A101C;
+    font-family: 'Andada Pro', serif;
+}
+
+/* Header */
+.img-box {
+    width: 100%;
+    height: 100%;
+    background-image: url(https://i.hizliresim.com/ms759cz.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+
+.header-content {
+    text-align: center;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 30%;
+    left: 50%;
+    z-index: 1;
+    color: #fff;
+}
+
+i {
+    margin-right: 8px;
+    margin-left: 8px;
+
+}
+
+.leak {
+    padding-top: 2rem;
+    font-size: 1.8rem;
+    letter-spacing: 3px;
+    color: #fff;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 2rem 3.6rem;
+    color: #fff;
+    background-color: #0A101C;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    transition: all 0.3s;
+    text-decoration: none;
+}
+
+.btn:hover {
+    color: #0A101C;
+    background-color: #fff;
+    border-color: #0A101C;
+    cursor: pointer;
+}
+
+#hizmetler {
+    margin-top: 900px;
+}
+
+.section-a-content {
+    padding-top: 400px;
+    color: #fff;
+}
+
+#hizmetler h2 {
+    color: #fff;
+    font-size: 4.8rem;
+    margin-bottom: 30px;
+}
+
+.item-container {
+    color: #fff;
+    margin-top: 40px;
+}
+
+.item {
+    font-size: 2.2rem;
+    padding-bottom: 2rem;
+}
+
+footer {
+    margin-top: 70px;
+}
+
+footer p {
+    color: #fff;
+    letter-spacing: 3px;
+    font-size: 3.2rem;
+}
+
+.instagram-btn {
+    text-decoration: none;
+    color: #fff;
+    background-color: #0A101C;
+    border: 1px solid #fff;
+    padding: 2rem 3.5rem;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 20px;
+    transition: all 0.3s;
+    margin-right: 10px;
+}
+
+.whatsaap-btn {
+    text-decoration: none;
+    color: #fff;
+    background-color: #0A101C;
+    border: 1px solid #fff;
+    padding: 2rem 3.5rem;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 20px;
+    transition: all 0.3s;
+}
+
+.whatsaap-btn:hover {
+    color: #0A101C;
+    background-color: #fff;
+    border-color: #0A101C;
+}
+
+.instagram-btn:hover {
+    color: #0A101C;
+    background-color: #fff;
+    border-color: #0A101C;
+}
+
+.footer-reklam {
+    color: #fff;
+    font-size: 1.5rem;
+    margin-top: 50px;
+}
+
+.name {
+    color: blue;
+}
+
+@media screen and (min-width:600px) {
+    html {
+        font-size: 10px;
+    }
+
+    .img-box {
+        width: 100%;
+        height: 100%;
+        background-image: url(https://i.hizliresim.com/ms759cz.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+}
+
+
+@media screen and (min-width:400px) {
+    html {
+        font-size: 13x;
+    }
+
+    .img-box {
+        width: 100%;
+        height: 100%;
+        background-image: url(https://i.hizliresim.com/ms759cz.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+}
